@@ -1,0 +1,12 @@
+package DateTime;
+
+import java.time.LocalDate;
+
+public class yesterdayDemo {
+public static void main(String[] args) {
+	LocalDate date = LocalDate.now();    
+    LocalDate yesterday = date.minusDays(1);
+    System.out.println("Yesterday");
+    System.out.println(yesterday);
+}
+}
